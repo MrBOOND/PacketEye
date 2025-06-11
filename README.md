@@ -20,7 +20,7 @@ A beautiful and powerful Deep Packet Inspector for network traffic monitoring wi
 ### System Requirements
 - Linux operating system (tested on Ubuntu, Kali, Termux)
 - Python 3.7 or higher
-- Root/sudo privileges for packet capture
+- Root privileges for packet capture
 
 ### Required Software
 1. **tshark** (part of Wireshark)
@@ -56,20 +56,16 @@ pkg install tshark
 ### 2. Install Python Dependencies
 
 ```bash
-# Clone or download the script
-git clone <your-repo-url>
-cd dpi-network-monitor
+git clone https://github.com/MrBOOND/PacketEye.git
+cd PacketEye
 
 # Install Python requirements
 pip install -r requirements.txt
 ```
 
-## 🎮 Usage
-
-### Basic Usage
+###  Usage
 
 ```bash
-# Run with sudo for packet capture privileges
 sudo python3 DPI.py
 ```
 
@@ -118,7 +114,7 @@ The script generates two output files:
 ### "arptype 519 not supported" Warning
 This is normal on some interfaces. The tool automatically falls back to cooked socket mode.
 
-### Permission Denied
+### Permission Denied and termux 
 Make sure to run with sudo:
 ```bash
 sudo python3 DPI.py
