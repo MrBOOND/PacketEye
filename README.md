@@ -92,11 +92,7 @@ The script generates two output files:
 - **Text log**: Your chosen filename (default: `network_logs.txt`)
 - **HTML report**: `network_report.html` with formatted results
 
-## 🛡️ Security Notes
 
-- ⚠️ This tool requires root privileges for packet capture
-- 🔴 Running as root is highlighted with security warnings
-- 📡 Only captures traffic on the detected network interface
 
 ## 🎨 Interface Features
 
