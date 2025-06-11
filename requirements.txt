@@ -1,0 +1,44 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║           DPI Network Monitor - Python Requirements                     ║
+# ║                       by 0x1ez                                          ║
+# ╚══════════════════════════════════════════════════════════════╝
+#
+# Install all requirements with:
+# pip install -r requirements.txt
+#
+# Or install individually:
+# pip install rich
+
+# Core Requirements
+# ════════════════
+
+# Rich - Beautiful terminal formatting and colors
+# Used for: Colored output, panels, progress bars, tables
+rich>=13.7.0
+
+# Optional Performance Libraries
+# ═════════════════════════════
+# Uncomment these if processing very large log files
+
+# pandas - Data analysis library
+# Use for: Advanced log analysis and filtering
+# pandas>=2.0.0
+
+# numpy - Numerical computing
+# Use for: Statistical analysis of traffic patterns  
+# numpy>=1.24.0
+
+# Optional Export Libraries
+# ════════════════════════
+# Uncomment if you want additional export formats
+
+# openpyxl - Excel file support
+# Use for: Export logs to Excel format
+# openpyxl>=3.1.0
+
+# matplotlib - Plotting library
+# Use for: Generate traffic graphs
+# matplotlib>=3.8.0
+
+# Note: The core script only requires 'rich'
+# All other libraries are optional enhancements
